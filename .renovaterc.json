@@ -12,7 +12,9 @@
   "packageRules": [
     {
       "automerge": true,
-      "extends": ["schedule:automergeMonthly"],
+      "schedule": [
+        "* 10-12 * * *"
+      ],
       "matchUpdateTypes": [
         "minor",
         "patch",
