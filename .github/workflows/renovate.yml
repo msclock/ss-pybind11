@@ -2,8 +2,7 @@ name: Renovate
 
 on:
   schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron: '*/15 0-3 * * 1'
+    - cron: '*/15 8-10 * * *'
   workflow_dispatch:
 
 jobs:

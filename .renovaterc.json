@@ -11,13 +11,14 @@
   "platformAutomerge": true,
   "packageRules": [
     {
+      "automerge": true,
+      "extends": ["schedule:automergeMonthly"],
       "matchUpdateTypes": [
         "minor",
         "patch",
         "pin",
         "digest"
-      ],
-      "automerge": true
+      ]
     },
     {
       "matchDepTypes": [
